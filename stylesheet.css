@@ -1,33 +1,33 @@
-.main{
+#main{
     background-color:lightslategray;
 }
-.top-bar{
+
+#top-bar{
     height: 50px;
-    margin: 0;
-    padding: 0;
-    top: 0;
-    z-index: 100;
+    margin:0;
+    padding:0;
+    top:0;
+    z-index:100;
     background-color:cornflowerblue;
-    position: sticky;
-    color: white;
-    text-decoration: none;
-    padding: 12px 14px;
-}
-.nav-items{
-    float: right;
+    position:sticky;
+    color:white;
+    text-decoration:none;
+    padding:12px 14px;
+    float:right;
     color:black;
-    font-size: 17px;
-    text-align: center;
-    
+    font-size:17px;
+    text-align:center;
 }
-.nav-items a:hover{
-    background-color: #ddd;
-    color: black;
+#top-bar a:hover{
+    background-color:#ddd;
+    color:black;
 }
-.nav-items a.active{
+#top-bar a.active{
     background-color:darkgoldenrod;
-    color: black;
+    color:black;
 }
+
+
 
 
 
