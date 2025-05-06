@@ -5,7 +5,6 @@
     top: 0;
     z-index: 100;
     background-color:cornflowerblue;
-    max-width: 60px;
     position: sticky;
 }
 .nav-items{
@@ -28,12 +27,11 @@
 
 
 .intro{
+    background-color: white;
+    color: black;
     max-width: 100%;
-    background-image: url('/home/sh3tss/repos/landing-construction/Images/');
     height:100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    
 }
 .intro-title{
     position: absolute;
