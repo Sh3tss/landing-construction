@@ -1,5 +1,5 @@
 .main{
-    background-color:black;
+    background-color:lightslategray;
 }
 .top-bar{
     height: 50px;
@@ -11,7 +11,7 @@
     position: sticky;
     color: white;
     text-decoration: none;
-    padding: 14px 16px;
+    padding: 12px 14px;
 }
 .nav-items{
     float: right;
@@ -34,7 +34,7 @@
 .intro{
     background-color: brown;
     color: white;
-    max-width: 100%;
+    max-width: 500;
     height:cover;
     
 }
