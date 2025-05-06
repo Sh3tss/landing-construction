@@ -1,11 +1,11 @@
 .top-bar{
-    background-color:cornflowerblue;
     height: 50px;
-    max-width: 100%;
     margin: 0;
     padding: 0;
     top: 0;
     z-index: 100;
+    background-color:cornflowerblue;
+    max-width: 100%;
     position: sticky;
 }
 .nav-items{
