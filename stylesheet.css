@@ -1,85 +1,8 @@
-#main{
-    background-color:lightslategray;
-}
-
 #top-bar{
-    float:right;
-    height: 25px;
+    height:25px;
     width:100%;
-    margin:0;
-    padding:0;
-    top:0;
-    z-index:100;
-    background-color:cornflowerblue;
-    position:sticky;
+    background-color:aquamarine;
+    color:black;
     text-decoration:none;
     font-size:17px;
-    text-align:center;
 }
-#nav-items{
-    color:white;
-    padding:16px 24px;
-}
-
-
-
-
-.top-bar a:hover{
-    background-color:#ddd;
-    color:black;
-}
-.intro{
-    background-color:brown;
-    color:white;
-    width:100%;
-    height:cover;
-    padding:10px;
-    margin:0;
-}
-
-
-
-
-
-
-.intro-title{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size:30px;
-    font-family:'Courier New', Courier, monospace;
-}
-.intro-caption{
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -70%);
-    font-size: 15px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.services{
-    height:auto;
-    width:auto;
-    background-color:antiquewhite;
-    color:black;
-    padding: 10px;
-    margin-top:10px;
-}
-.operations{
-    width:150px;
-    height:150px;
-    background-color:lightcoral;
-    color:black;
-    padding: 5px;
-    margin:10px;
-}
-.svc-subtitle{
-    font-size:22px;
-    text-align:center;
-}
-.svc-caption{
-    font-size:15px;
-}
-
-
