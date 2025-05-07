@@ -3,7 +3,6 @@
 }
 
 #top-bar{
-    color:white;
     height: 25px;
     width:100%;
     margin:0;
@@ -13,10 +12,13 @@
     background-color:cornflowerblue;
     position:sticky;
     text-decoration:none;
-    padding:12px 14px;
-    float:right;
     font-size:17px;
     text-align:center;
+}
+#nav-items{
+    color:white;
+    float:right;
+    padding:16px 24px;
 }
 #top-bar a:hover{
     background-color:#ddd;
