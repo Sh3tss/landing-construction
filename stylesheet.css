@@ -35,8 +35,9 @@
 #top-bar #nav-items{
     text-align:right;
 }
-#top-bar h2{
+#top-bar p{
     text-align: left;
+    
 }
 .intro{
     width:100%;
