@@ -37,7 +37,7 @@
 }
 .intro{
     width:100%;
-    background:linear-gradient(to top to right rgb(136, 212, 214));
+    background:linear-gradient(from top to right rgb(136, 212, 214));
     height:100vh;
     display: flex;
     flex-direction: column;
