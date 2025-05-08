@@ -1,8 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
 #top-bar{
-    height:25px;
+    height:40px;
     width:100%;
-    background-color:aquamarine;
+    background-color:rgb(129, 113, 41);
+    overflow:hidden;
+    position:fixed;
+    top: 0;
+    left: 0;
+    min-height:35px;
+    align-items: center;
     color:black;
-    text-decoration:none;
-    font-size:17px;
+    font-size:20px;
+    z-index: 100;
+}
+#top-bar a{
+    display: inline-block;
+    color:aliceblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#top-bar a:hover{
+    background-color:burlywood;
+    color:black;
+}
+#top-bar a:active{
+    background-color:lightslategray;
+    color:bisque;
+}
+#top-bar #nav-items{
+    text-align:right;
 }
