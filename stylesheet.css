@@ -46,6 +46,8 @@
 .intro h1{
     font-size:3rem;
     color:azure;
+    text-align:center;
+    align-items:center;
 }
 .intro p{
     font-size:2rem;
@@ -53,4 +55,6 @@
     color:white;
     font-family:'Courier New', Courier, monospace;
     text-shadow: 2px 2px 1px #ddd;
+    text-align:center;
+    align-items:center;
 }
