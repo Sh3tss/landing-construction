@@ -35,20 +35,20 @@
 #top-bar #nav-items{
     text-align:right;
 }
-#intro{
+.intro{
     width:100%;
     background-color:lightslategray;
-    height:580px;
+    height:100vh;
     align-items:center;
     justify-content:center;
     text-align:center;
 }
-#intro #title{
-    font-size:45px;
+.intro #title{
+    font-size:20px;
     color:azure;
 }
-#intro #caption{
-    font-size:15px;
+.intro #caption{
+    font-size:5px;
     font-style:italic;
     color:white;
     font-family:'Courier New', Courier, monospace;
