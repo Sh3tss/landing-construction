@@ -36,12 +36,9 @@
     text-align:right;
 }
 #intro{
-    background:linear-gradient(to top right, rgb(148,130,130));
     min-height:700px;
     width:100%;
-    height:100vh;
-    display:flex;
-    flex-direction:column;
+    height:750px;
     align-items:center;
     justify-content:center;
     text-align:center;
