@@ -43,11 +43,11 @@
     justify-content:center;
     text-align:center;
 }
-.intro #title{
+.intro h1{
     font-size:3rem;
     color:azure;
 }
-.intro #caption{
+.intro p{
     font-size:2rem;
     font-style:italic;
     color:white;
