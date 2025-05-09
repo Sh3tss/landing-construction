@@ -75,11 +75,13 @@
     padding-top:70px;
 }
 .services-info{
-    grid-template-columns: fit-content(200px) fit-content(200px) fit-content(200px);
-    grid-template-rows: fit-content(200px) fit-content(200px) fit-content(200px);
+    grid-template-columns: minmax(150px,250px) minmax(150px,250px) minmax(150px,250px);
+    grid-template-rows: minmax(150px,250px) minmax(150px,250px) minmax(150px,250px);
     column-gap: 20px;
     row-gap: 25px;
     display:grid;
+    overflow:hidden;
+    word-wrap:break-word;
 }
 #work{
     height:580px;
