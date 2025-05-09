@@ -75,8 +75,8 @@
     padding-top:70px;
 }
 .services-info{
-    grid-template-columns: fit-content(100px) fit-content(100px) 1fr;
-    grid-template-rows: fit-content(100px) fit-content(100px) 1fr;
+    grid-template-columns: fit-content(200px) fit-content(200px) fit-content(200px);
+    grid-template-rows: fit-content(200px) fit-content(200px) fit-content(200px);
     column-gap: 20px;
     row-gap: 25px;
     display:grid;
