@@ -75,13 +75,13 @@
     grid-template-rows: 80px auto 80px;
     column-gap: 10px;
     row-gap: 15px;
+    display:grid;
 }
 #work{
     height:580px;
     width: 100%;
     background-color:bisque;
-    margin:10px;
-    padding: 5px;
+    padding: 10px;
 }
 .wk-subtitle{
     background-color:burlywood;
@@ -91,14 +91,14 @@
     height:580px;
     width: 100%;
     background-color:chocolate;
-    margin: 10px;
-    padding: 5px;
+    padding: 10px;
 }
 #sk-list .sk-subtitle{
     list-style-type: none;
 }
 
 .feedback{
+    display: grid;
     width: 100%;
     height:580px;
     grid-template-columns: 100px 50px 100px;
@@ -106,7 +106,6 @@
     column-gap: 10px;
     row-gap: 15px;
     background-color:lightcyan;
-    margin: 10px;
     padding: 12px;
     font-style: italic;
 }
