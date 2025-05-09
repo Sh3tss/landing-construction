@@ -80,7 +80,7 @@
     column-gap: 20px;
     row-gap: 25px;
     display:grid;
-    overflow:hidden;
+    overflow:auto;
     word-wrap:break-word;
 }
 #work{
