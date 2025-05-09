@@ -76,3 +76,35 @@
     column-gap: 10px;
     row-gap: 15px;
 }
+#work{
+    height:580px;
+    width: 100%;
+    background-color:bisque;
+}
+.wk-subtitle{
+    background-color:burlywood;
+    box-shadow: 10px 10px 5px lightblue;
+}
+#skills{
+    height:580px;
+    width: 100%;
+    background-color:chocolate;
+}
+#sk-list .sk-subtitle{
+    list-style-type: none;
+}
+
+.feedback{
+    width: 100%;
+    height:580px;
+    grid-template-columns: 100px 50px 100px;
+    grid-template-rows: 80px auto 80px;
+    column-gap: 10px;
+    row-gap: 15px;
+    background-color:lightcyan;
+}
+.testmonial{
+    background-color:cornflowerblue;
+    box-shadow: 10px 10px 5px lightblue;
+    border-radius:50%;
+}
