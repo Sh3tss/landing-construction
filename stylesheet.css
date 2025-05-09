@@ -73,8 +73,6 @@
     width: 100%;
     height:580px;
     padding-top:70px;
-}
-.services-info{
     grid-template-columns: minmax(150px,250px) minmax(150px,250px) minmax(150px,250px);
     grid-template-rows: minmax(150px,250px) minmax(150px,250px) minmax(150px,250px);
     column-gap: 20px;
@@ -83,6 +81,7 @@
     overflow:auto;
     word-wrap:break-word;
 }
+
 #work{
     height:580px;
     width: 100%;
@@ -106,8 +105,8 @@
     display: grid;
     width: 100%;
     height:580px;
-    grid-template-columns: fit-content(100px) fit-content(100px) 1fr;
-    grid-template-rows: fit-content(100px) fit-content(100px) 1fr;
+    grid-template-columns: minmax(150px,250px) minmax(150px,250px) minmax(150px,250px);
+    grid-template-rows: minmax(150px,250px) minmax(150px,250px) minmax(150px,250px);
     column-gap: 20px;
     row-gap: 25px;
     background-color:lightcyan;
