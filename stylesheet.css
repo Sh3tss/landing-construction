@@ -162,7 +162,7 @@
 
 
 #skills{
-    height:580px;
+    height:620px;
     width: 100%;
     padding: 10px;
     padding-top:70px;
@@ -172,20 +172,37 @@
 }
 
 .feedback{
-    display: grid;
     width: 100%;
-    height:580px;
-    grid-template-columns: minmax(150px,250px) minmax(150px,250px) minmax(150px,250px);
-    grid-template-rows: minmax(150px,250px) minmax(150px,250px) minmax(150px,250px);
-    column-gap: 20px;
-    row-gap: 25px;
-    padding: 12px;
-    font-style: italic;
-    padding-top:70px;
+    height: 580px;
+    background-color:lightyellow;
 }
-.testmonial{
-    background-color:lightslategray;
+#testimonial #feedback{
+    font-size: 2rem;
+    color: rgb(219, 120, 62);
+    text-align: center;
+    margin-bottom: 25px;
+    padding-top: 70px;
+}
+#testmonial #tm-subtitle{
+    font-size: 15px;
+}
+.testmonial-block{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    justify-content: center;
+}
+.testmonial-block .testmonial{
+    width: 200px;
+    height: 350px;
+    background-color: lightslategray;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     box-shadow: 10px 10px 5px lightblue;
-    border-radius:5px;
-    padding-top:70px;
 }
