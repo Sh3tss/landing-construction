@@ -115,8 +115,8 @@
     align-items:center;
 }
 .icons{
-    height: 50px;
-    width: 50px;
+    height: 80px;
+    width: 80px;
     margin-bottom: 25px;
     padding-top: 5px;
 }
@@ -218,13 +218,15 @@
 .icon{
     text-shadow: 2px 2px 1px #1f1f1f;
     font-size: 20px;
-    transition: transform 0.3s ease-out;
     text-decoration:none;
     color: white;
 }
-.icon:hover{
-    transform: translateY(8px);
-}
 .icon:active{
     color: white;
+}
+.social-img{
+    color:white;
+}
+.social-img:active{
+    color:white;
 }
