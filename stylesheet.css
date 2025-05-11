@@ -204,6 +204,7 @@
     text-align:center;
     box-shadow: 10px 10px 5px lightblue;
     margin-bottom: 70px;
+    font-style: italic;
 }
 #footer{
     background-color: rgb(219, 120, 62);
