@@ -88,6 +88,9 @@
     text-align:justify;
 
 }
+#svc-caption{
+    padding: 15px;
+}
 .section-block{
     padding-top: 70px;
     display: flex;
@@ -97,8 +100,8 @@
     padding-left: 35px;
 }
 .section-block section{
-    width: 200px;
-    height: 450px;
+    width: 250px;
+    height: 500px;
     background-color:lightslategray;
     border: 1px solid #e6caab;
     border-radius: 10px;
@@ -111,6 +114,12 @@
 }
 .svc-subtitle{
     align-items:center;
+}
+.icons{
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
 }
 
 #work{
