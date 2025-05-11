@@ -212,13 +212,16 @@
     padding: 10px;
 }
 #socialinfo{
-    color: white;
     padding: 10px;
 }
 .icon{
     transition: transform 0.3s ease-out;
     text-decoration:none;
+    color: white;
 }
 .icon:hover{
     transform: translateY(8px);
+}
+.icon:active{
+    color: white;
 }
