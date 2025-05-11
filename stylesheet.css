@@ -3,6 +3,9 @@
     padding: 0;
     font-family:Arial, Helvetica, sans-serif;
 }
+.main{
+    background-color:bisque;
+}
 #top-bar{
     height:40px;
     width:100%;
@@ -72,6 +75,7 @@
 .section-intro{
     text-align:center;
     justify-content:center;
+    padding-top:70px;
 }
 #svc-title{
     font-size:2rem;
@@ -84,15 +88,16 @@
     text-align:center;
 }
 .section-block{
+    padding-top: 70px;
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 50px;
     justify-content: flex-start;
     padding-left: 35px;
 }
 .section-block section{
-    width: 200px;
-    height: 300px;
+    width: 300px;
+    height: 500px;
     background-color:lightslategray;
     border: 1px solid #e6caab;
     border-radius: 5px;
@@ -108,7 +113,6 @@
 #work{
     height:580px;
     width: 100%;
-    background-color:bisque;
     padding: 10px;
     padding-top:70px;
 }
@@ -116,7 +120,6 @@
 #skills{
     height:580px;
     width: 100%;
-    background-color:rgb(170, 119, 82);
     padding: 10px;
     padding-top:70px;
 }
@@ -132,13 +135,12 @@
     grid-template-rows: minmax(150px,250px) minmax(150px,250px) minmax(150px,250px);
     column-gap: 20px;
     row-gap: 25px;
-    background-color:lightcyan;
     padding: 12px;
     font-style: italic;
     padding-top:70px;
 }
 .testmonial{
-    background-color:cornflowerblue;
+    background-color:lightslategray;
     box-shadow: 10px 10px 5px lightblue;
     border-radius:5px;
     padding-top:70px;
