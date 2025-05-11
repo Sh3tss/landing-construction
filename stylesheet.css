@@ -215,6 +215,7 @@
 #socialinfo{
     padding: 10px;
 }
+/* this icon tag it`s just to the social media icon, the icons above it`s for the icons inside the block part*/
 .icon{
     text-shadow: 2px 2px 1px #1f1f1f;
     font-size: 20px;

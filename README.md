@@ -1,1 +1,2 @@
 # landing-construction
+in this project i tried my best to create a good page using the html and css that i learned with TOP and Freecodecamp, beside my university. didin`t have many comments because the code it's self explained, so i don't think need it. it's just a simple lading page of a contruction crew.
