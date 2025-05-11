@@ -216,7 +216,6 @@
     padding: 10px;
 }
 .icon{
-    text-shadow: 2px 2px 1px #1f1f1f;
     transition: transform 0.3s ease-out;
     text-decoration:none;
 }
