@@ -213,21 +213,15 @@
 }
 #socialinfo{
     padding: 10px;
-    color: white;
 }
 /* this icon tag it`s just to the social media icon, the icons above it`s for the icons inside the block part*/
 .icon{
-    text-shadow: 2px 2px 1px #1f1f1f;
+    text-shadow: 2px 2px 1px #ddd;
     font-size: 20px;
     text-decoration:none;
-    color: white;
+    color: black;
 }
 .icon:active{
-    color: white;
+    color: black;
 }
-.social-img{
-    color:white;
-}
-.social-img:active{
-    color:white;
-}
+
