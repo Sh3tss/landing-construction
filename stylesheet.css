@@ -119,6 +119,33 @@
     padding: 10px;
     padding-top:70px;
 }
+#wk-title{
+    font-size: 2rem;
+    color: rgb(219, 120, 62);
+    text-align: center;
+}
+#wk-list{
+    padding-left: 50px;
+}
+#wk-list .wk-subtitle{
+    margin-bottom: 30px;
+}
+#wk-list .wk-subtitle:last-child{
+    margin-bottom: 0px;
+}
+
+#sk-title{
+    font-size: 2rem;
+    color: rgb(219, 120, 62);
+    text-align: center;
+}
+#sk-list .sk-subtitle{
+    margin-bottom: 40px;
+}
+#sk-list .sk-subtitle:last-child{
+    margin-bottom: 0px;
+}
+
 
 #skills{
     height:580px;
